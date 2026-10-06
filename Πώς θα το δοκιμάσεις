@@ -1,0 +1,24 @@
+Αφού δημιουργήσεις τους φακέλους και τα αρχεία, από το root:
+
+python -m venv venv
+
+Ενεργοποίησε το environment.
+
+Windows
+venv\Scripts\activate
+
+Μετά:
+
+pip install -r requirements.txt
+
+Τρέξε τα tests:
+
+pytest -v
+
+Αν όλα είναι σωστά, θα πρέπει να δεις:
+
+12 passed
+
+και μετά τρέξε το πρόγραμμα:
+
+python src/expense_tracker.py
